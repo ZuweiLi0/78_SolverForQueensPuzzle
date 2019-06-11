@@ -1,6 +1,7 @@
 # 78_SolverForQueensPuzzle
 ## Zu Wei's remarks
 Talked to Kyra and Kyle in class about their approach.
+
 Asked Emma for clairification on certain parts of the homework.
 
 
