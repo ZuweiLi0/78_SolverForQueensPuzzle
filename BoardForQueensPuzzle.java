@@ -24,7 +24,11 @@ public class BoardForQueensPuzzle {
               filesWithQueens.
      */
     public BoardForQueensPuzzle( BoardForQueensPuzzle old) {
-        
+        int[] nFilesWQueens = new int[old.ranks()];
+      	for(int i=0;i<old.ranks();i++)
+        {nFilesWQueens[i] = old.filesWithQueens[i];}
+	      lastRankFilled = old.lastRankFilled;
+	      filesWithQueens = nFilesWQueens;
     }
 
 
